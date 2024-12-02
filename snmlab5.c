@@ -47,7 +47,7 @@ int main(){
         if(f(x[i])<=y[i])
             n++;
     }
-    printf("\n\nn=%d,n");
+    printf("\n\nn=%d",n);
     I=(float)n*(b-a)*c/N;
     printf("\nI=%f",I);
     return 0;
